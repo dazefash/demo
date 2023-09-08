@@ -4,7 +4,7 @@ metadata:
   name: demo
   description: An example deployment of a Backstage application.
   annotations:
-    github.com/project-slug: backstage/demo
+    github.com/project-slug: dazefash/demo
     jenkins.io/job-full-name: backstage
 spec:
   type: website
