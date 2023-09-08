@@ -8,5 +8,5 @@ metadata:
     jenkins.io/job-full-name: backstage
 spec:
   type: website
-  owner: backstage/maintainers
+  owner: default/guest
   lifecycle: experimental
