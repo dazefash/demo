@@ -8,6 +8,6 @@ metadata:
     jenkins.io/job-full-name: backstage
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
 spec:
-  type: website
+  type: service
   owner: guests
   lifecycle: experimental
