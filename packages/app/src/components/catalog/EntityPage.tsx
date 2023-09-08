@@ -60,7 +60,7 @@ import { EntityTechdocsContent } from '@backstage/plugin-techdocs';
 import { EntityTodoContent } from '@backstage/plugin-todo';
 import { EmptyState } from '@backstage/core-components';
 import { EntityCatalogGraphCard } from '@backstage/plugin-catalog-graph';
-
+import { EntityJenkinsContent } from '@backstage/plugin-jenkins';
 const EntityLayoutWrapper = (props: { children?: React.ReactNode }) => {
   const [badgesDialogOpen, setBadgesDialogOpen] = useState(false);
 
@@ -182,7 +182,9 @@ const serviceEntityPage = (
     <EntityLayout.Route path="/ci-cd" title="CI/CD">
       {cicdContent}
     </EntityLayout.Route>
-
+    <EntityLayout.Route path="/jenkins" title="Jenkins">
+      <EntityJenkinsContent />
+    </EntityLayout.Route>
     <EntityLayout.Route path="/api" title="API">
       <Grid container spacing={3} alignItems="stretch">
         <Grid item xs={12} md={6}>
