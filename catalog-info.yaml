@@ -5,8 +5,8 @@ metadata:
   description: An example deployment of a Backstage application.
   annotations:
     github.com/project-slug: dazefash/demo
-    jenkins.io/job-full-name: backstage
-    backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+    jenkins.io/job-full-name: backstage/test
+
 spec:
   type: service
   owner: guests
