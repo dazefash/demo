@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: dazefash/demo
     jenkins.io/job-full-name: job/test/
+    backstage.io/techdocs-ref: dir:.
 
 spec:
   type: service
