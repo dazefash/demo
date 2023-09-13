@@ -10,5 +10,5 @@ metadata:
 
 spec:
   type: service
-  owner: user:dazefash
+  owner: user:guest
   lifecycle: experimental
